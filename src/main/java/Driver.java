@@ -6,4 +6,12 @@ public class Driver {
             this.name = name;
             this.licenseId = licenseId;
         }
+
+    @Override
+    public String toString() {
+        return "Driver{" +
+                "name='" + name + '\'' +
+                ", licenseId=" + licenseId +
+                '}';
+    }
 }

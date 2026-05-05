@@ -21,5 +21,6 @@ public class Main {
         Driver tsean = new Driver("tsean", 12345);
         Car volvo = new Car("Volvo", "CX90", 2022,"zwart", 2.0, tsean);
         volvo.printCar2();
+        volvo.printCar();
     }
 }
